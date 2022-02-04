@@ -4,5 +4,6 @@ sudo apt install imagemagick
 Если конвертация работать не будет выполним команду "sudo 2sed -i '/disable ghostscript format types/,+6d' /etc/ImageMagick-6/policy.xml"
 3. Установим библиотеки для Python3
 sudo apt install python3-opencv
+sudo apt-get install zbar-tools
 pip3 install qrcode pyzbar numpy
 4. Напишем python скрипт для получения из JPG списка QR кодов
