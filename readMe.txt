@@ -6,4 +6,6 @@ sudo apt install imagemagick
 sudo apt install python3-opencv
 sudo apt-get install zbar-tools
 pip3 install qrcode pyzbar numpy
-4. Напишем python скрипт для получения из JPG списка QR кодов
+4. Поместим в одну папку PDF файлы и скрипты "python convertPdfToJpg.py" и "python readqr.py"
+5. Для конвертации PDF в JPG выполним команду "python convertPdfToJpg.py"
+6. Для чтения кодов DataMatrix выполним команду "python readqr.py"
